@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Lezione HTML</title>
+	<style>
+		label {
+			display: block
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Registrati</h1>
+	<form action="link di destinazione" method="post">
+
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email">
+
+		<label for="fname">Nome e Cognome</label>
+		<input type="text" id="fname" name="fname">
+
+		<label for="bithdate">Data di nascita</label>
+		<input type="date" name="bithdate" id="bithdate">
+
+		<label for="phonenumber">Numero di Telefono</label>
+		<input type="tel" id="phonenumber" name="phonenumber">
+
+		<h2>Seleziona l'offerta più adatta a te</h2>
+
+		<label for="choice">Opzione Free</label>
+		<input type="radio" id="choice" name="choice">
+
+		<label for="group">Oppure scegli tra le nostre opzioni:</label>
+		<select name="group" id="group">
+			<optgroup label="Basic">
+				<option value="giga">chiamate illimitate 5€</option>
+				<option value="saab">messaggi illimitati 5€</option>
+			</optgroup>
+			<optgroup label="Silver">
+				<option value="silver">10 giga al mese 10€</option>
+				<option value="silver">5 giga + 1000 minuti 12€</option>
+			</optgroup>
+			<optgroup label=Gold>
+				<option value="gold">60 giga al mese 13€</option>
+				<option value="gold">60 giga + 1000 minuti 16€</option>
+			</optgroup><br>
+		</select>
+        <article><h3>A soli 3€ in più al mese,potrai usufruire dei nostri vantaggi PRO!</h3>
+		<p>In più ogni mese : 5000 minuti,3 giga e 80 messaggi! </p>
+		<label for="premium">Unisciti noi!</label>
+		<input type="checkbox" id="premium" name="premium">
+	   </article>
+	</form>
+		<h4>Inserisci i tuoi dati qui sotto</h4>
+	<form action="link di destinazione" method="post">
+        <label for="cardnumber">Numero di carta</label>
+		<input type="cardnumber" name="cardnumber" id="cardnumber">
+        <label for="cvc">CVC</label>
+		<input type="text" id="cvc" name="cvc">
+        <label for="scadenza">Data di scadenza</label>
+		<input type="text" name="scadenza" id="scadenza">
+		<label for="address">Indirizzo</label>
+		<input type="address" name="address" id="address">
+	</form>
+</body>
+
+</html>
